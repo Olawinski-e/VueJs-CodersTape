@@ -8,6 +8,8 @@
     <hr />
     <h3 title="step 4">{{ title4 }}</h3>
     <Step4 v-for="person in persons" :key="person.id" :person="person" />
+    <hr />
+    <Step5 />
   </div>
 </template>
 
@@ -16,10 +18,11 @@ import Step1 from "./components/Step1.vue";
 import Step2 from "./components/Step2.vue";
 import Step3 from "./components/Step3.vue";
 import Step4 from "./components/Step4.vue";
+import Step5 from "./components/Step5.vue";
 
 export default {
   name: "App",
-  components: { Step1, Step2, Step3, Step4 },
+  components: { Step1, Step2, Step3, Step4, Step5 },
   data() {
     return {
       title4: "step 4",
@@ -79,6 +82,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 60px 0;
 }
 </style>
