@@ -5,6 +5,8 @@
     <Step2 />
     <hr />
     <Step3 />
+    <hr />
+    <Step4 />
   </div>
 </template>
 
@@ -12,10 +14,11 @@
 import Step1 from "./components/Step1.vue";
 import Step2 from "./components/Step2.vue";
 import Step3 from "./components/Step3.vue";
+import Step4 from "./components/Step4.vue";
 
 export default {
   name: "App",
-  components: { Step1, Step2, Step3 },
+  components: { Step1, Step2, Step3, Step4 },
 };
 </script>
 
