@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 v-bind:title="menu">{{ title }}</h1>
+    <h3 v-bind:title="menu">{{ title }}</h3>
 
     <p v-text="content"></p>
 
@@ -22,9 +22,9 @@ export default {
   name: "StepFirst",
   data() {
     return {
-      title: "Hello you!",
+      title: "step 1",
+      menu: "Hello you!",
       content: "Add something to do",
-      menu: 'I said "Hello you!"',
       item: "",
       items: ["Redo my portfolio", "Do the website of MKH", "Change my life"],
     };

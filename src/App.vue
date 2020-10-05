@@ -1,14 +1,18 @@
 <template>
-  <div id="app" class="container"><Step1 /></div>
+  <div id="app" class="container">
+    <Step1 />
+    <hr />
+    <Step2 />
+  </div>
 </template>
 
 <script>
-// import StepFirst from "./components/StepFirst.vue";
 import Step1 from "./components/Step1.vue";
+import Step2 from "./components/Step2.vue";
 
 export default {
   name: "App",
-  components: { Step1 },
+  components: { Step1, Step2 },
 };
 </script>
 
