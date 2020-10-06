@@ -15,7 +15,7 @@ export default {
   name: "Step5",
   components: { Dropdown },
   data() {
-    return { title: "Step 5", dropdownResult: "" };
+    return { title: "step 5", dropdownResult: "" };
   },
   methods: {
     optionUpdate(value) {

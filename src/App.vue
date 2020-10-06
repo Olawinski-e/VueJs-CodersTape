@@ -10,6 +10,8 @@
     <Step4 v-for="person in persons" :key="person.id" :person="person" />
     <hr />
     <Step5 />
+    <hr />
+    <Step6 />
   </div>
 </template>
 
@@ -19,10 +21,11 @@ import Step2 from "./components/Step2.vue";
 import Step3 from "./components/Step3.vue";
 import Step4 from "./components/Step4.vue";
 import Step5 from "./components/Step5.vue";
+import Step6 from "./components/Step6.vue";
 
 export default {
   name: "App",
-  components: { Step1, Step2, Step3, Step4, Step5 },
+  components: { Step1, Step2, Step3, Step4, Step5, Step6 },
   data() {
     return {
       title4: "step 4",
