@@ -13,8 +13,6 @@
 </template>
 
 <script>
-window.axios = require("axios");
-
 export default {
   name: "Step7",
   data() {
