@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="container">
+  <div id="app" class="container mx-auto">
     <Step1 />
     <hr />
     <Step2 />
@@ -18,6 +18,8 @@
     <Step8 />
     <hr />
     <Step9 />
+    <hr />
+    <Step10 />
   </div>
 </template>
 
@@ -31,10 +33,22 @@ import Step6 from "./components/Step6.vue";
 import Step7 from "./components/Step7.vue";
 import Step8 from "./components/Step8.vue";
 import Step9 from "./components/Step9.vue";
+import Step10 from "./components/Step10.vue";
 
 export default {
   name: "App",
-  components: { Step1, Step2, Step3, Step4, Step5, Step6, Step7, Step8, Step9 },
+  components: {
+    Step1,
+    Step2,
+    Step3,
+    Step4,
+    Step5,
+    Step6,
+    Step7,
+    Step8,
+    Step9,
+    Step10,
+  },
   data() {
     return {
       title4: "step 4",
